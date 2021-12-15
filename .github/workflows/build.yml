@@ -78,7 +78,7 @@ jobs:
 
         run: |
 
-          build-wrapper-win-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} scons platform=windows test=yes
+          build-wrapper-win-x86-64 --out-dir ${{ env.BUILD_WRAPPER_OUT_DIR }} scons platform=windows tests=yes
 
       - name: Run sonar-scanner
 
